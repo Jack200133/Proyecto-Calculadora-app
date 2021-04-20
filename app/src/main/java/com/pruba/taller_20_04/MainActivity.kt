@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val btnHello: Button = findViewById(R.id.btnHello)
 
         btnHello.setOnClickListener {
-            val intent: Intent = Intent(this,MainActivity2::class.java)
+            val intent: Intent = Intent(this,Calculadora::class.java)
             startActivity(intent)
             finish()
         }
