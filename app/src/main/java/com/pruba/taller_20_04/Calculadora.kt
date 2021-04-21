@@ -24,14 +24,31 @@ class Calculadora : AppCompatActivity() {
         btnMas = findViewById(R.id.btnMas)
 
         btnUno.setOnClickListener{
-            txtResultado.text = "1"
+
+            val str: String = txtResultado.text.toString()
+            if(str == "0") {
+                txtResultado.text = "1"
+            } else {
+                txtResultado.text = str + "1"
+            }
+
         }
 
         btnDos.setOnClickListener{
-            txtResultado.text = "2"
+            val str: String = txtResultado.text.toString()
+            if(str == "0") {
+                txtResultado.text = "2"
+            } else {
+                txtResultado.text = str + "2"
+            }
         }
         btnTres.setOnClickListener{
-            txtResultado.text = "3"
+            val str: String = txtResultado.text.toString()
+            if(str == "0") {
+                txtResultado.text = "3"
+            } else {
+                txtResultado.text = str + "3"
+            }
         }
     }
 }
