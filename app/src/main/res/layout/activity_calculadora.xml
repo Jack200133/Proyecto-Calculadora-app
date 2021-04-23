@@ -80,16 +80,20 @@
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <Button
                 android:id="@+id/btnCE"
-                android:layout_margin="5dp"
-                android:text="CE"
-
                 android:layout_width="0dp"
-                android:layout_weight="2"
                 android:layout_height="match_parent"
-                android:textSize="30sp"/>
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/custom_button"
+                android:text="CE"
+                android:textColor="#FF9800"
+                android:textSize="36sp"
+                app:backgroundTint="#676262" />
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnC"
                 android:layout_margin="5dp"
                 android:text="⊴"
@@ -98,6 +102,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnDel"
                 android:layout_margin="5dp"
                 android:text="⋪"
@@ -110,15 +115,18 @@
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <Button
                 android:id="@+id/btnUno"
-                android:layout_margin="5dp"
-                android:text="1"
                 android:layout_width="0dp"
-                android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:layout_height="match_parent"
-                android:textSize="30sp"/>
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="1"
+                android:textSize="30sp" />
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnDos"
                 android:layout_margin="5dp"
                 android:text="2"
@@ -127,6 +135,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnTres"
                 android:layout_margin="5dp"
                 android:text="3"
@@ -135,6 +144,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnMas"
                 android:layout_margin="5dp"
                 android:text="+"
@@ -148,6 +158,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnCuatro"
                 android:layout_margin="5dp"
                 android:text="4"
@@ -156,6 +167,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnCinco"
                 android:layout_margin="5dp"
                 android:text="5"
@@ -164,6 +176,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnSeis"
                 android:layout_margin="5dp"
                 android:text="6"
@@ -172,6 +185,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnMenos"
                 android:layout_margin="5dp"
                 android:text="-"
@@ -185,6 +199,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnSiete"
                 android:layout_margin="5dp"
                 android:text="7"
@@ -193,6 +208,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnOcho"
                 android:layout_margin="5dp"
                 android:text="8"
@@ -201,6 +217,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnNuevo"
                 android:layout_margin="5dp"
                 android:text="9"
@@ -209,6 +226,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnPor"
                 android:layout_margin="5dp"
                 android:text="*"
@@ -222,6 +240,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/bntCero"
                 android:layout_margin="5dp"
                 android:text="0"
@@ -231,6 +250,7 @@
                 android:textSize="30sp"/>
             
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnPuto"
                 android:layout_margin="5dp"
                 android:text="."
@@ -239,6 +259,7 @@
                 android:layout_height="match_parent"
                 android:textSize="30sp"/>
             <Button
+                android:background="@drawable/custom_button"
                 android:id="@+id/btnIgual"
                 android:layout_margin="5dp"
                 android:text="="
