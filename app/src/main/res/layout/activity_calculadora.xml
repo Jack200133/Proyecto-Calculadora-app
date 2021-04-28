@@ -66,7 +66,14 @@
                     android:layout_height="wrap_content"/>
             </LinearLayout>
     !-->
-
+        <TextView
+            android:id="@+id/textLoqueLLeva"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16sp"
+            android:gravity="right|bottom"
+            android:textColor="#7E7777"
+            android:textSize="28sp" />
         <TextView
             android:id="@+id/textResultado"
             android:layout_width="match_parent"
@@ -79,7 +86,7 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/btnCE"
@@ -122,7 +129,7 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/btnUno"
@@ -175,7 +182,7 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/btnCuatro"
@@ -228,7 +235,7 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/btnSiete"
@@ -281,7 +288,7 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="80dp">
+            android:layout_height="wrap_content">
             <Button
                 android:background="@drawable/custom_button"
                 app:backgroundTint="#69FFB6"
