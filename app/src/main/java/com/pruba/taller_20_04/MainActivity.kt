@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Toast.makeText(this,"onCreate", Toast.LENGTH_SHORT).show()
 
-        val btnHello: Button = findViewById(R.id.btnHello)
+        val btnHello: Button = findViewById(R.id.btnCalculadora)
 
         btnHello.setOnClickListener {
             val intent: Intent = Intent(this,Calculadora::class.java)
